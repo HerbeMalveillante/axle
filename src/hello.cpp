@@ -1,18 +1,9 @@
-#include "raylib.h"
-#include "hello.h"
+// axle/src/hello.cpp
 
-namespace axle
+#include <iostream>
+#include "hello.h" // Include the header to define the function
+
+void say_hello()
 {
-    void axleHelloWorld()
-    {
-        InitWindow(800, 600, "Hello From Axle");
-        while (!WindowShouldClose())
-        {
-            BeginDrawing();
-            ClearBackground(RAYWHITE);
-            DrawText("Hello from Axle !", 190, 200, 20, DARKGRAY);
-            EndDrawing();
-        }
-        CloseWindow();
-    }
+    std::cout << "Hello, World!" << std::endl;
 }

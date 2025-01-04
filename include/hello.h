@@ -1,9 +1,8 @@
-#ifndef AXLE_HELLO_H
-#define AXLE_HELLO_H
+// axle/include/hello.h
 
-namespace axle
-{
-    void axleHelloWorld();
-}
+#ifndef HELLO_H
+#define HELLO_H
 
-#endif // AXLE_HELLO_H
+void say_hello();
+
+#endif // HELLO_H

@@ -63,6 +63,13 @@ build () {
 }
 
 
+run () {
+    build
+    echo "Running Your Project..."
+    ./build/axle_app
+}
+
+
 
 # Check for a "axle.sh" script in the root folder.
 # If it doesn't exist, create the shortcut script.
@@ -99,3 +106,12 @@ if [ "$1" == "build" ]; then
     build
     exit 0
 fi
+
+# Check for a "run" argument.
+if [ "$1" == "run" ]; then
+    run
+    exit 0
+fi
+
+# Display the help message if the argument is invalid.
+echo "Usage : ./axle.sh [clean|init|build|run]"

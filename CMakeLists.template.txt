@@ -1,21 +1,27 @@
-cmake_minimum_required(VERSION 3.15)
+# New project's CMakeLists.txt
+
+# Minimum CMake version and project setup
+cmake_minimum_required(VERSION 3.10)
 project(AxleApp)
 
+# Set C++ standard
 set(CMAKE_CXX_STANDARD 17)
 
-# Add axle to the project
+# Add axle library as a subdirectory (if axle is inside the project folder or added as a submodule)
 add_subdirectory(axle)
 
-# Include directories
+# Explicitly set include directories for the target (new_project_exe)
 include_directories(${CMAKE_SOURCE_DIR}/axle/include)
 
-# Add source files
-set (SOURCES
-    src/main.cpp # Add your source files here
+
+# Add your project's source files
+set(SOURCES
+src/main.cpp
 )
 
-# Create an executable
+# Create an executable for your project
 add_executable(axle_app ${SOURCES})
 
-# Link Axle
+
+# Link axle library to your project
 target_link_libraries(axle_app axle)

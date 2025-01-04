@@ -12,7 +12,7 @@ add_library(axle STATIC
 )
 
 # Specify the include directoriy for the axle library
-target_include_directories(axle PUBLIC ${CMAKE_SOURCE_DIR}/include)
+target_include_directories(axle PUBLIC ${CMAKE_SOURCE_DIR}/axle/include)
 
 # Link the library with Raylib
 target_link_libraries(axle PRIVATE raylib)
