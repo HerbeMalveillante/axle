@@ -50,3 +50,12 @@ A Lightweight, object-oriented C++ game development framework based on Raylib.
    ```
 
 7. Update the CMakeLists file to add other source files to your project.
+
+## Roadmap
+
+1. Port all of Raylib's features to C++ with an Object-Oriented notation
+2. Add a .bat file that allows the project to run on Windows systems
+3. Change the way Raylib is downloaded to target the latest stable version instead of the latest one.
+4. Edit the toolchain script to also create a boilerplate cpp file for quick testing
+5. Rewrite the toolchain script in a cross-platform scripting language
+6. Create a script to automatically add headers to created files.

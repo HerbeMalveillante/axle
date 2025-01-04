@@ -79,7 +79,7 @@ build () {
     fi
 
     cd build
-    cmake ..
+    cmake .. -Wno-dev
     cmake --build .
     cd ..
 }

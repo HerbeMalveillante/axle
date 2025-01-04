@@ -6,6 +6,8 @@ project(AxleApp)
 
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_BUILD_TYPE Release)
+
 
 # Add axle library as a subdirectory (if axle is inside the project folder or added as a submodule)
 add_subdirectory(axle)

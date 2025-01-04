@@ -6,6 +6,7 @@
 
 void say_hello()
 {
+    SetTraceLogLevel(LOG_ERROR);
     // Raylib default window
     InitWindow(800, 600, "Hello, World!");
     SetTargetFPS(60);

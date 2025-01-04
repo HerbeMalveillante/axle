@@ -3,6 +3,7 @@ project(Axle)
 
 set(CMAKE_CXX_STANDARD 17)
 set(BUILD_SHARED_LIBS OFF)
+set(CMAKE_BUILD_TYPE Release)
 
 # Add Raylib as a subdirectory
 add_subdirectory(raylib)
