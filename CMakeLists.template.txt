@@ -15,9 +15,7 @@ include_directories(${CMAKE_SOURCE_DIR}/axle/include)
 
 
 # Add your project's source files
-set(SOURCES
-src/main.cpp
-)
+file(GLOB_RECURSE SOURCES "src/*.cpp" "include/*.h")
 
 # Create an executable for your project
 add_executable(axle_app ${SOURCES})

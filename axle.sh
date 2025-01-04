@@ -28,8 +28,6 @@ clean () {
         rm -rf build
     fi
 
-
-
     echo "Done."
 }
 
@@ -42,6 +40,28 @@ init () {
         echo "Downloading raylib..."
         git clone https://github.com/raysan5/raylib.git axle/raylib
     fi
+
+    # Remove useless files and folders from the raylib folder to reduce the size of the project
+    rm -rf axle/raylib/.git
+    rm -rf axle/raylib/.github
+    rm -rf axle/raylib/examples
+    rm -rf axle/raylib/logo
+    rm -rf axle/raylib/parser
+    rm -rf axle/raylib/projects
+    rm -rf axle/raylib/.gitignore
+    rm -rf axle/raylib/BINDINGS.md
+    rm -rf axle/raylib/build.zig
+    rm -rf axle/raylib/build.zig.zon
+    rm -rf axle/raylib/CHANGELOG
+    rm -rf axle/raylib/CONTRIBUTING.md
+    rm -rf axle/raylib/CONVENTIONS.md
+    rm -rf axle/raylib/FAQ.md
+    rm -rf axle/raylib/HISTORY.md
+    rm -rf axle/raylib/ROADMAP.md
+
+    # Note : for some reason, removing the README.md file causes the project to not compile.
+
+
     # Copying the CMakeLists.template.txt file to the root folder, as CMakeLists.txt
     cp axle/CMakeLists.template.txt CMakeLists.txt
     echo "Done."

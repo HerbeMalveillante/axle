@@ -6,9 +6,11 @@ set(CMAKE_CXX_STANDARD 17)
 # Add Raylib as a subdirectory
 add_subdirectory(raylib)
 
+file(GLOB_RECURSE SOURCES "src/*.cpp" "include/*.h")
+
 # Create a static library from the source files
 add_library(axle STATIC
-    src/hello.cpp
+    ${SOURCES}
 )
 
 # Specify the include directoriy for the axle library
