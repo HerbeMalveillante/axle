@@ -6,6 +6,8 @@
 # Description : Axle toolchain, to build and install the library and required components.
 
 # Add a config variable that dictates if the axle/raylib folder should be removed when cleaning
+set -e
+
 SHOULD_REMOVE_RAYLIB=false
 
 clean () {
@@ -89,6 +91,16 @@ run () {
     ./build/axle_app
 }
 
+# Check if the folder the command was launched in is the root folder.
+# To do this, we can check
+# - If the active folder is NOT named "axle"
+# - If the active folder contains a "axle" directory
+# This is to avoid axle's CMakelists.txt file to be removed by the clean command.
+if [ "$(basename "$(pwd)")" == "axle" ] || [ ! -d "axle" ]; then
+    echo "Please run this script from the root folder."
+    exit 1
+fi
+
 
 
 # Check for a "axle.sh" script in the root folder.
@@ -103,11 +115,7 @@ if [ ! -f "axle.sh" ]; then
     echo "Shortcut script created. You can now use './axle.sh' to run this script."
 fi
 
-# Display the help message if no argument is provided.
-if [ "$1" == "" ]; then
-    echo "Usage : ./axle.sh [clean|init|build|run]"
-    exit 0
-fi
+
 
 # Check for a "clean" argument.
 if [ "$1" == "clean" ]; then
