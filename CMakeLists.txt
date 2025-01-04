@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.15)
 project(Axle)
 
 set(CMAKE_CXX_STANDARD 17)
+set(BUILD_SHARED_LIBS OFF)
 
 # Add Raylib as a subdirectory
 add_subdirectory(raylib)
