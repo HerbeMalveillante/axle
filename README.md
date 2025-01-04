@@ -59,3 +59,4 @@ A Lightweight, object-oriented C++ game development framework based on Raylib.
 4. Edit the toolchain script to also create a boilerplate cpp file for quick testing
 5. Rewrite the toolchain script in a cross-platform scripting language
 6. Create a script to automatically add headers to created files.
+7. Edit the project to enable IDEs to locate and run the CMake build system without using the toolchain script
