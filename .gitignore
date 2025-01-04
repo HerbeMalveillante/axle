@@ -34,5 +34,7 @@
 
 # build folder
 build/
+# external folder
+external/
 # raylib folder
 raylib/

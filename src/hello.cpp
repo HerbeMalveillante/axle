@@ -1,15 +1,18 @@
 #include "raylib.h"
 #include "hello.h"
 
-void axleHelloWorld()
+namespace axle
 {
-    InitWindow(800, 600, "Hello From Axle");
-    while (!WindowShouldClose())
+    void axleHelloWorld()
     {
-        BeginDrawing();
-        ClearBackground(RAYWHITE);
-        DrawText("Hello from Axle !", 190, 200, 20, DARKGRAY);
-        EndDrawing();
+        InitWindow(800, 600, "Hello From Axle");
+        while (!WindowShouldClose())
+        {
+            BeginDrawing();
+            ClearBackground(RAYWHITE);
+            DrawText("Hello from Axle !", 190, 200, 20, DARKGRAY);
+            EndDrawing();
+        }
+        CloseWindow();
     }
-    CloseWindow();
 }

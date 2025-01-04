@@ -1,13 +1,18 @@
-cmake_minimum_required(VERSION 3.15)  # Minimum version of CMake required
-project(Axle)  # Name of the project
+cmake_minimum_required(VERSION 3.15)
+project(Axle)
 
-set(CMAKE_CXX_STANDARD 11)  # Set the C++ standard
+set(CMAKE_CXX_STANDARD 17)
 
+# Add Raylib as a subdirectory
+add_subdirectory(raylib)
 
+# Create a static library from the source files
+add_library(axle STATIC
+    src/hello.cpp
+)
 
-# Checks if OSX and links appropriate frameworks (Only required on MacOS)
-if (APPLE)
-    target_link_libraries(${PROJECT_NAME} "-framework IOKit")
-    target_link_libraries(${PROJECT_NAME} "-framework Cocoa")
-    target_link_libraries(${PROJECT_NAME} "-framework OpenGL")
-endif()
+# Specify the include directoriy for the axle library
+target_include_directories(axle PUBLIC ${CMAKE_SOURCE_DIR}/include)
+
+# Link the library with Raylib
+target_link_libraries(axle PRIVATE raylib)

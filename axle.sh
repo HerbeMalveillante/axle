@@ -5,63 +5,64 @@
 # Created : 04/01/2025
 # Description : Axle toolchain, to build and install the library and required components.
 
+# Add a config variable that dictates if the axle/raylib folder should be removed when cleaning
+SHOULD_REMOVE_RAYLIB=false
 
 clean () {
     echo "Cleaning up..."
-    rm -rf build
-    rm -rf external/axle/raylib
+
+    # Removing the raylib folder
+    if [ -d "axle/raylib" ]; then
+        if [ "$SHOULD_REMOVE_RAYLIB" = true ]; then
+            rm -rf axle/raylib
+        fi
+    fi
+
+    # Removing the CMakelists.txt file
+    if [ -f "CMakeLists.txt" ]; then
+        rm CMakeLists.txt
+    fi
+
+    # Removing the build folder
+    if [ -d "build" ]; then
+        rm -rf build
+    fi
+
+
+
     echo "Done."
 }
 
-install () {
+init () {
+    clean
     echo "Installing Axle..."
 
-    # Create a build folder if it doesn't exist.
+    # Clone raylib if it doesn't exist
+    if [ ! -d "axle/raylib" ]; then
+        echo "Downloading raylib..."
+        git clone https://github.com/raysan5/raylib.git axle/raylib
+    fi
+    # Copying the CMakeLists.template.txt file to the root folder, as CMakeLists.txt
+    cp axle/CMakeLists.template.txt CMakeLists.txt
+    echo "Done."
+}
+
+
+build () {
+    echo "Building Your Project..."
+
+    # Create a build folder if it doesn't exist
     if [ ! -d "build" ]; then
         mkdir build
     fi
 
-    # Create a lib folder if it doesn't exist.
-    if [ ! -d "lib" ]; then
-        mkdir lib
-    fi
-
-    # Download raylib in the external folder.
-    if [ ! -d "external/axle/raylib" ]; then
-        git clone https://github.com/raysan5/raylib.git external/axle/raylib
-
-        # Remove unused files.
-        rm -rf external/axle/raylib/.git
-        rm -rf external/axle/raylib/.github
-        rm -rf external/axle/raylib/examples
-        rm -rf external/axle/raylib/logo
-        rm -rf external/axle/raylib/parser
-        rm -rf external/axle/raylib/projects
-        rm -rf external/axle/raylib/.gitignore
-        rm -rf external/axle/raylib/BINDINGS.md
-        rm -rf external/axle/raylib/build.zig
-        rm -rf external/axle/raylib/build.zig.zon
-        rm -rf external/axle/raylib/CHANGELOG
-        rm -rf external/axle/raylib/CONTRIBUTING.md
-        rm -rf external/axle/raylib/CONVENTIONS.md
-        rm -rf external/axle/raylib/FAQ.md
-        rm -rf external/axle/raylib/HISTORY.md
-        rm -rf external/axle/raylib/raylib.pc.in
-        rm -rf external/axle/raylib/README.md
-        rm -rf external/axle/raylib/ROADMAP.md
-    fi
-}
-
-build () {
-    echo "Building Axle..."
-    cd external/axle/build
+    cd build
     cmake ..
-    exit 0
+    cmake --build .
+    cd ..
 }
 
-run () {
-    echo "Running Axle..."
-}
+
 
 # Check for a "axle.sh" script in the root folder.
 # If it doesn't exist, create the shortcut script.
@@ -69,7 +70,7 @@ if [ ! -f "axle.sh" ]; then
     # Create a bash script in the root folder, used as a shortcut to this script.
     # This shortcut should forward all arguments to this script.
     echo "#!/bin/bash" > axle.sh
-    echo "bash external/axle/axle.sh \$@" >> axle.sh
+    echo "bash axle/axle.sh \$@" >> axle.sh
     chmod +x axle.sh
 
     echo "Shortcut script created. You can now use './axle.sh' to run this script."
@@ -77,7 +78,7 @@ fi
 
 # Display the help message if no argument is provided.
 if [ "$1" == "" ]; then
-    echo "Usage : ./axle.sh [clean|install|build|run]"
+    echo "Usage : ./axle.sh [clean|init|build|run]"
     exit 0
 fi
 
@@ -88,19 +89,13 @@ if [ "$1" == "clean" ]; then
 fi
 
 # Check for a "install" argument.
-if [ "$1" == "install" ]; then
-    install
+if [ "$1" == "init" ]; then
+    init
     exit 0
 fi
 
 # Check for a "build" argument.
 if [ "$1" == "build" ]; then
     build
-    exit 0
-fi
-
-# Check for a "run" argument.
-if [ "$1" == "run" ]; then
-    run
     exit 0
 fi
