@@ -1,5 +1,4 @@
-#include "examples.h"
-#include "window.h"
+#include "axle.h"
 
 namespace Axle::Examples
 {
@@ -11,8 +10,8 @@ namespace Axle::Examples
         while (!window.shouldClose())
         {
             window.beginDrawing();
-            window.clearBackground(255, 255, 255, 255);
-            window.drawText("Congrats ! You created your first window !", 190, 200, 20, 0, 0, 0, 255);
+            window.clearBackground(Axle::ColorPreset::LIGHTGRAY);
+            window.drawText("Congrats ! You created your first window !", 190, 200, 20, Axle::ColorPreset::BLACK);
             window.endDrawing();
         }
 

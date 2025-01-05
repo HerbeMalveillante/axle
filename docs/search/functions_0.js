@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['close_0',['close',['../class_axle_1_1_window.html#a080610ed85c477a4e6f4822a1981c1fd',1,'Axle::Window']]]
+  ['begindrawing_0',['beginDrawing',['../class_axle_1_1_window.html#a49066f8583d4ae9e47308db6b615f6de',1,'Axle::Window']]]
 ];

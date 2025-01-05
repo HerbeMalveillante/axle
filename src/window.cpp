@@ -1,5 +1,6 @@
 #include "window.h"
 #include "raylib.h"
+#include "color.h"
 
 namespace Axle
 {
@@ -45,9 +46,22 @@ namespace Axle
         ClearBackground({r, g, b, a});
     }
 
+    void Window::clearBackground(Color color)
+    {
+        ClearBackground({color.getR(),
+                         color.getG(),
+                         color.getB(),
+                         color.getA()});
+    }
+
     void Window::drawText(const char *text, int x, int y, int fontSize, unsigned char r, unsigned char g, unsigned char b, unsigned char a)
     {
         DrawText(text, x, y, fontSize, {r, g, b, a});
+    }
+
+    void Window::drawText(const char *text, int x, int y, int fontSize, Color color)
+    {
+        DrawText(text, x, y, fontSize, {color.getR(), color.getG(), color.getB(), color.getA()});
     }
 
 } // namespace Axle

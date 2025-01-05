@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['settargetfps_0',['setTargetFPS',['../class_axle_1_1_window.html#af755b6e55182114423cdbe94f27401c0',1,'Axle::Window']]],
-  ['shouldclose_1',['shouldClose',['../class_axle_1_1_window.html#ae5a705f88e46ee5cba60dc960528427c',1,'Axle::Window']]]
+  ['drawtext_0',['drawText',['../class_axle_1_1_window.html#aa8eedc71ca796cc8e16759dc2e23aecf',1,'Axle::Window::drawText(const char *text, int x, int y, int fontSize, unsigned char r, unsigned char g, unsigned char b, unsigned char a)'],['../class_axle_1_1_window.html#ab4fe9de83e2c7aebe976ba1cab8575b9',1,'Axle::Window::drawText(const char *text, int x, int y, int fontSize, Color color)']]]
 ];
