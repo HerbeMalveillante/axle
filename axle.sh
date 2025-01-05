@@ -91,6 +91,12 @@ run () {
     ./build/axle_app
 }
 
+docs () {
+    build
+    echo "Generating Documentation..."
+    doxygen -q axle/Doxyfile
+}
+
 # Check if the folder the command was launched in is the root folder.
 # To do this, we can check
 # - If the active folder is NOT named "axle"
@@ -141,5 +147,48 @@ if [ "$1" == "run" ]; then
     exit 0
 fi
 
+# Check for a "docs" argument.
+if [ "$1" == "docs" ]; then
+    docs
+    exit 0
+fi
+
+# Check for a "help" argument.
+if [ "$1" == "help" ]; then
+    RED='\033[0;31m'
+    YLW='\033[1;33m'
+    NC='\033[0m'
+
+    echo ""
+    echo "| ======================================================================================= |"
+    echo -e "|                                  ${YLW}Axle Toolchain script${NC}                                  |"
+    echo -e "| ${RED}Author${NC}  : HerbeMalveillante                                                             |"
+    echo -e "| ${RED}Version${NC} : 0.1.0                                                                         |"
+    echo -e "| ${RED}Site${NC}    : https://github.com/herbemalveillante/axle                                     |"
+    echo "| ======================================================================================= |"
+    echo "|                                                                                         |"
+    echo -e "| ${RED}NOTE${NC} :                                                                                  |"
+    echo "|  - Using this script for the first time will create                                     |"
+    echo "|    a shortcut script in the root directory.                                             |"
+    echo -e "|  - This script should ${RED}NOT${NC} be used from anywhere else                                    |"
+    echo "|    than the root directory of the project.                                              |"
+    echo "|                                                                                         |"
+    echo "| --------------------------------------------------------------------------------------- |"
+    echo "|                                                                                         |"
+    echo -e "| ${RED}USAGE${NC} : ./axle.sh [build|clean|docs|help|init|run]                                      |"
+    echo -e "|   ${YLW}build${NC} : Build the project without running it.                                         |"
+    echo -e "|   ${YLW}clean${NC} : Clean the build folder to remove the compiled files and CMake cache.          |"
+    echo -e "|   ${YLW}docs${NC}  : Generate Axle documentation using Doxygen.                                    |"
+    echo -e "|   ${YLW}help${NC}  : Display this help message.                                                    |"
+    echo -e "|   ${YLW}init${NC}  : Install Raylib and configure the project for building.                        |"
+    echo -e "|   ${YLW}run${NC}   : Build and run the project.                                                    |"
+    echo "|                                                                                         |"
+    echo "| ======================================================================================= |"
+    echo ""
+
+    exit 0
+fi
+
 # Display the help message if the argument is invalid.
-echo "Usage : ./axle.sh [clean|init|build|run]"
+echo "Usage : ./axle.sh [build|clean|docs|help|init|run]"
+echo "Use the 'help' argument for more information."
