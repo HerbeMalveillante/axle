@@ -92,9 +92,11 @@ run () {
 }
 
 docs () {
-    build
     echo "Generating Documentation..."
+    echo ""
     doxygen -q axle/Doxyfile
+    echo ""
+    echo "Documentation generated in the 'docs' folder."
 }
 
 # Check if the folder the command was launched in is the root folder.
