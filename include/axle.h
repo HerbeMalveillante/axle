@@ -14,9 +14,20 @@ namespace Axle
 /**
  * @brief The Example namespace contains ports of the examples from the Raylib library.
  *
- * The original examples can be found at https://www.raylib.com/examples.html
+ * To run an example, simply call the corresponding function from this namespace :
+ *
+ *```cpp
+ * #include <axle.h>
+ * int main()
+ * {
+ *     Axle::Examples::basicWindow();
+ *     return 0;
+ * }
+ *```
+ *
+ * @note The original examples can be found at https://www.raylib.com/examples.html
  */
-namespace Axle::Example
+namespace Axle::Examples
 {
 }
 

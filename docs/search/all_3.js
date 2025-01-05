@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['darkblue_0',['DARKBLUE',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a06e2fdcb92e9bdbc9075c0d8365f453f',1,'Axle']]],
-  ['darkbrown_1',['DARKBROWN',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8ade1f378f72c71113be9329a741547c8b',1,'Axle']]],
-  ['darkgray_2',['DARKGRAY',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a0e1e6fddb3b7f6b796fd388b27dc02ab',1,'Axle']]],
-  ['darkgreen_3',['DARKGREEN',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a0375de91b1558838e15231ca2a939f84',1,'Axle']]],
-  ['darkpurple_4',['DARKPURPLE',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a2bfe1e1c35bb64f961908243773b9aa1',1,'Axle']]],
-  ['documentation_5',['Documentation',['../index.html#autotoc_md2',1,'']]],
-  ['drawtext_6',['drawText',['../class_axle_1_1_window.html#aa8eedc71ca796cc8e16759dc2e23aecf',1,'Axle::Window::drawText(const char *text, int x, int y, int fontSize, unsigned char r, unsigned char g, unsigned char b, unsigned char a)'],['../class_axle_1_1_window.html#ab4fe9de83e2c7aebe976ba1cab8575b9',1,'Axle::Window::drawText(const char *text, int x, int y, int fontSize, Color color)']]]
+  ['clearbackground_0',['clearBackground',['../class_axle_1_1_window.html#abe8b1a9bb6defd5b2493f42fe6614e9b',1,'Axle::Window::clearBackground(unsigned char r, unsigned char g, unsigned char b, unsigned char a)'],['../class_axle_1_1_window.html#a6cdfe5c675be902e2baa223d28647ebb',1,'Axle::Window::clearBackground(Color color)']]],
+  ['close_1',['close',['../class_axle_1_1_window.html#a080610ed85c477a4e6f4822a1981c1fd',1,'Axle::Window']]],
+  ['color_2',['Color',['../class_axle_1_1_color.html',1,'Axle::Color'],['../class_axle_1_1_color.html#a7545bc794697e0f1faecf60cad629442',1,'Axle::Color::Color(unsigned char r, unsigned char g, unsigned char b, unsigned char a)'],['../class_axle_1_1_color.html#a6e4a7f4c3acb7354dafcd88061566b83',1,'Axle::Color::Color(unsigned char r, unsigned char g, unsigned char b)'],['../class_axle_1_1_color.html#a6646442de1e7fd752d28e46f233e1e45',1,'Axle::Color::Color()'],['../class_axle_1_1_color.html#ad3f5cd9c2ef5e65b50bee32b0778fe4f',1,'Axle::Color::Color(ColorPreset preset)']]],
+  ['colorpreset_3',['ColorPreset',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8',1,'Axle']]],
+  ['credits_4',['Credits',['../index.html#autotoc_md16',1,'']]],
+  ['customexample_5',['customExample',['../namespace_axle_1_1_examples.html#a731085a0d1039cffe4b9bf6e63f7690d',1,'Axle::Examples']]]
 ];

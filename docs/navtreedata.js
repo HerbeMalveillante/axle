@@ -27,12 +27,27 @@ var NAVTREE =
   [ "Axle", "index.html", [
     [ "Usage", "index.html#autotoc_md1", null ],
     [ "Documentation", "index.html#autotoc_md2", null ],
-    [ "Roadmap", "index.html#autotoc_md3", null ],
-    [ "Credits", "index.html#autotoc_md4", null ],
+    [ "Roadmap", "index.html#autotoc_md3", [
+      [ "Features", "index.html#autotoc_md4", [
+        [ "Primitives", "index.html#autotoc_md5", null ],
+        [ "Window and screen", "index.html#autotoc_md6", null ],
+        [ "Drawing and shaders", "index.html#autotoc_md7", null ],
+        [ "Input functions", "index.html#autotoc_md8", null ],
+        [ "Primitives", "index.html#autotoc_md9", null ],
+        [ "Textures", "index.html#autotoc_md10", null ],
+        [ "Text", "index.html#autotoc_md11", null ],
+        [ "3D", "index.html#autotoc_md12", null ],
+        [ "Audio", "index.html#autotoc_md13", null ],
+        [ "Utils and misc", "index.html#autotoc_md14", null ]
+      ] ],
+      [ "Examples", "index.html#autotoc_md15", null ]
+    ] ],
+    [ "Credits", "index.html#autotoc_md16", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ]
       ] ]
     ] ],

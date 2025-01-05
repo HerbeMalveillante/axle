@@ -1,9 +1,9 @@
-#include "axle.h"
 #include <iostream>
+#include "axle.h"
 
 namespace Axle::Examples
 {
-    void custom()
+    void customExample()
     {
         Axle::Window window(800, 450, "Axle example - custom");
         window.setTargetFPS(60);
@@ -12,4 +12,4 @@ namespace Axle::Examples
         std::cout << "Target FPS: " << window.getTargetFPS() << std::endl;
         window.close();
     }
-}
+} // namespace Axle::Examples

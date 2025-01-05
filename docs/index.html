@@ -126,8 +126,9 @@ Usage</h1>
 <div class="line"><span class="keywordtype">int</span> main()</div>
 <div class="line">{</div>
 <div class="line">   <span class="comment">// Run the basic window example</span></div>
-<div class="line">   Axle::Examples::basicWindow();</div>
+<div class="line">   <a class="code hl_function" href="namespace_axle_1_1_examples.html#aad61ebdcb0a57c9108ed77ed607844b6">Axle::Examples::basicWindow</a>();</div>
 <div class="line">}</div>
+<div class="ttc" id="anamespace_axle_1_1_examples_html_aad61ebdcb0a57c9108ed77ed607844b6"><div class="ttname"><a href="namespace_axle_1_1_examples.html#aad61ebdcb0a57c9108ed77ed607844b6">Axle::Examples::basicWindow</a></div><div class="ttdeci">void basicWindow()</div><div class="ttdoc">Basic window example.</div><div class="ttdef"><b>Definition</b> basicWindow.cpp:5</div></div>
 </div><!-- fragment --></li>
 <li><p class="startli">Build and run the project :</p>
 <div class="fragment"><div class="line">./axle.sh run</div>
@@ -141,10 +142,131 @@ Documentation</h1>
 <p>The documentation is also available online at <a href="https://herbemalveillante.github.io/axle/">https://herbemalveillante.github.io/axle/</a> .</p>
 <h1><a class="anchor" id="autotoc_md3"></a>
 Roadmap</h1>
-<ol type="1">
-<li>Port all of Raylib's examples to <a class="el" href="namespace_axle.html" title="The main namespace of the Axle engine. All the features of the engine are contained within this names...">Axle</a></li>
-</ol>
-<h1><a class="anchor" id="autotoc_md4"></a>
+<p>Note : the following features will be implemented <b>LAST</b> :</p>
+<ul>
+<li>Touch and gestures</li>
+<li>VR</li>
+<li>Automation and Event management</li>
+</ul>
+<p>The following features may be implemented in the near future :</p>
+<ul>
+<li>Automatic generation of macOS apps</li>
+<li>Resource management for standalone executables</li>
+<li>Cross-platform toolchain shell script</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md4"></a>
+Features</h2>
+<h3><a class="anchor" id="autotoc_md5"></a>
+Primitives</h3>
+<ul>
+<li>Rectangle</li>
+<li>Vector2 / Point</li>
+<li>Vector3</li>
+<li>Matrixes</li>
+<li>Shaders</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md6"></a>
+Window and screen</h3>
+<ul>
+<li>Get window state (fullscreen, hidden, minimized, maximized, focused, resized, etc.)</li>
+<li>Set window state</li>
+<li>Set window icon</li>
+<li>Set window properties (title, position, monitor, min/max size, opacity, etc.)</li>
+<li>Get screen size and render size</li>
+<li>Get monitor information (count, size, position, etc.)</li>
+<li>Manage clipboard (set / get, text and images)</li>
+<li>Manage cursor (show, hide, get visibility, enable, disable, detect if on screen)</li>
+<li>Manage FPS (get current FPS, get deltatime, get time since start of the program, etc.)</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md7"></a>
+Drawing and shaders</h3>
+<ul>
+<li>Implement camera (2D and 3D) with transformation matrixes. Add option to switch drawing mode to a camera.</li>
+<li>Get and set camera information</li>
+<li>Implement Screen-space related functions (screen to world, world to screen, 2D and 3D, manage camera matrixes, etc.)</li>
+<li>Implement drawing to render texture</li>
+<li>Implement shader drawing (load shader, access uniforms, etc.)</li>
+<li>Implement blending mode</li>
+<li>Implement scissor mode</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md8"></a>
+Input functions</h3>
+<ul>
+<li>Get keyboard state (once, again, released, etc.)</li>
+<li>Set exit key</li>
+<li>Get gamepad information</li>
+<li>Get gamepad state</li>
+<li>Manage gamepad (vibrations, etc.)</li>
+<li>Change input mappings</li>
+<li>Get mouse position and buttons</li>
+<li>Move the mouse</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md9"></a>
+Primitives</h3>
+<ul>
+<li>Draw pixels</li>
+<li>Draw lines</li>
+<li>Draw splines and bezier curves</li>
+<li>Draw circles</li>
+<li>Draw circle sectors</li>
+<li>Draw ellipses</li>
+<li>Draw rings</li>
+<li>Draw rectangles</li>
+<li>Draw triangles</li>
+<li>Draw polygons</li>
+<li>Check collisions between each aforementioned shape</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md10"></a>
+Textures</h3>
+<ul>
+<li>Load images into CPU memory (RAM)</li>
+<li>Generate images programatically (noise, etc.)</li>
+<li>Edit images (crop, filters, etc.)</li>
+<li>Draw images</li>
+<li>Load textures into GPU memory (VRAM)</li>
+<li>Draw textures</li>
+<li>Edit / Compare colors</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md11"></a>
+Text</h3>
+<ul>
+<li>Load fonts from ttf files</li>
+<li>Load fonts from image files</li>
+<li>Draw text</li>
+<li>Edit text</li>
+<li>Measure text</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md12"></a>
+3D</h3>
+<ul>
+<li>Draw primitives</li>
+<li>Load models</li>
+<li>Load materials</li>
+<li>Load animations</li>
+<li>Load meshes</li>
+<li>Generate meshes programmatically</li>
+<li>Draw models</li>
+<li>Draw meshes</li>
+<li>Draw billboards</li>
+<li>Check for collisions</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md13"></a>
+Audio</h3>
+<ul>
+<li>Load audio data</li>
+<li>Play audio data</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md14"></a>
+Utils and misc</h3>
+<ul>
+<li>Add random number / seed generation</li>
+<li>Add perlin / simplex noise generation</li>
+<li>Implement screenshots and video recording</li>
+<li>Interact with the machine (open URL, file management, etc.)</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md15"></a>
+Examples</h2>
+<h1><a class="anchor" id="autotoc_md16"></a>
 Credits</h1>
 <ul>
 <li>This library is based on <b>Raylib</b> (<a href="https://github.com/raysan5/raylib">https://github.com/raysan5/raylib</a>)</li>

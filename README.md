@@ -48,7 +48,119 @@ The documentation is also available online at https://herbemalveillante.github.i
 
 ## Roadmap
 
-1. Port all of Raylib's examples to Axle
+Note : the following features will be implemented **LAST** :
+
+- Touch and gestures
+- VR
+- Automation and Event management
+
+The following features may be implemented in the near future :
+
+- Automatic generation of macOS apps
+- Resource management for standalone executables
+- Cross-platform toolchain shell script
+
+### Features
+
+#### Primitives
+
+- Rectangle
+- Vector2 / Point
+- Vector3
+- Matrixes
+- Shaders
+
+#### Window and screen
+
+- Get window state (fullscreen, hidden, minimized, maximized, focused, resized, etc.)
+- Set window state
+- Set window icon
+- Set window properties (title, position, monitor, min/max size, opacity, etc.)
+- Get screen size and render size
+- Get monitor information (count, size, position, etc.)
+- Manage clipboard (set / get, text and images)
+- Manage cursor (show, hide, get visibility, enable, disable, detect if on screen)
+- Manage FPS (get current FPS, get deltatime, get time since start of the program, etc.)
+
+#### Drawing and shaders
+
+- Implement camera (2D and 3D) with transformation matrixes. Add option to switch drawing mode to a camera.
+- Get and set camera information
+- Implement Screen-space related functions (screen to world, world to screen, 2D and 3D, manage camera matrixes, etc.)
+- Implement drawing to render texture
+- Implement shader drawing (load shader, access uniforms, etc.)
+- Implement blending mode
+- Implement scissor mode
+
+#### Input functions
+
+- Get keyboard state (once, again, released, etc.)
+- Set exit key
+- Get gamepad information
+- Get gamepad state
+- Manage gamepad (vibrations, etc.)
+- Change input mappings
+- Get mouse position and buttons
+- Move the mouse
+
+#### Primitives
+
+- Draw pixels
+- Draw lines
+- Draw splines and bezier curves
+- Draw circles
+- Draw circle sectors
+- Draw ellipses
+- Draw rings
+- Draw rectangles
+- Draw triangles
+- Draw polygons
+- Check collisions between each aforementioned shape
+
+#### Textures
+
+- Load images into CPU memory (RAM)
+- Generate images programatically (noise, etc.)
+- Edit images (crop, filters, etc.)
+- Draw images
+- Load textures into GPU memory (VRAM)
+- Draw textures
+- Edit / Compare colors
+
+#### Text
+
+- Load fonts from ttf files
+- Load fonts from image files
+- Draw text
+- Edit text
+- Measure text
+
+#### 3D
+
+- Draw primitives
+- Load models
+- Load materials
+- Load animations
+- Load meshes
+- Generate meshes programmatically
+- Draw models
+- Draw meshes
+- Draw billboards
+- Check for collisions
+
+#### Audio
+
+- Load audio data
+- Play audio data
+
+#### Utils and misc
+
+- Add random number / seed generation
+- Add perlin / simplex noise generation
+- Implement screenshots and video recording
+- Interact with the machine (open URL, file management, etc.)
+
+### Examples
 
 ## Credits
 

@@ -1,6 +1,9 @@
 var namespace_axle =
 [
-    [ "Example", "namespace_axle_1_1_example.html", null ],
+    [ "Examples", "namespace_axle_1_1_examples.html", [
+      [ "basicWindow", "namespace_axle_1_1_examples.html#aad61ebdcb0a57c9108ed77ed607844b6", null ],
+      [ "customExample", "namespace_axle_1_1_examples.html#a731085a0d1039cffe4b9bf6e63f7690d", null ]
+    ] ],
     [ "Color", "class_axle_1_1_color.html", "class_axle_1_1_color" ],
     [ "Window", "class_axle_1_1_window.html", "class_axle_1_1_window" ],
     [ "ColorPreset", "namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8", [
