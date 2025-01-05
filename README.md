@@ -59,6 +59,9 @@ The following features may be implemented in the near future :
 - Automatic generation of macOS apps
 - Resource management for standalone executables
 - Cross-platform toolchain shell script
+- Custom UI framework
+- Example browser
+- Tracking if every function is tested and displayed in an example
 
 ### Features
 
@@ -68,6 +71,16 @@ The following features may be implemented in the near future :
 - Vector2 / Point
 - Vector3
 - Matrixes
+- Color ✅
+- Image
+- Texture
+- Font
+- Camera
+- Material
+- Mesh
+- Model
+- Ray
+- BoundingBox
 - Shaders
 
 #### Window and screen
@@ -161,6 +174,124 @@ The following features may be implemented in the near future :
 - Interact with the machine (open URL, file management, etc.)
 
 ### Examples
+
+#### Core
+
+- basic window ✅
+- basic screen manager
+- 2D camera
+- 2D camera mouse zoom
+- 2D camera platformer
+- 2D camera split screen
+- 3D camera first person
+- 3D camera free
+- 3D camera mode
+- 3D camera split screen
+- 3D picking
+- Automation events
+- Custom frame control
+- Custom logging
+- Drop files
+- Input Gamepad
+- Input Gamepad info
+- Input Gestures
+- Input Keys
+- Input mouse
+- Input mouse wheel
+- Input multitouch
+- Loading thread
+- Random values
+- Scissor test
+- Smooth pixelperfect
+- Storage values
+- VR simulator
+- Window flags
+- Window letterbox
+- Window should close
+- World screen
+
+#### Shapes
+
+- basic shapes
+- bouncing ball
+- color palette
+- logo
+- rectangle scaling
+- lines bezier
+- collision area
+- following eyes
+- easings ball anim
+- easings box anim
+- easings rectangle array
+- draw ring
+- draw circle sector
+- draw rectangle rounded
+- splines drawing
+- top down lights
+
+#### Text
+
+- Raylib fonts
+- font spritefont
+- font filters
+- font loading
+- font sdf
+- formal text
+- input box
+- writing anim
+- rectangle bounds
+- unicode
+- draw 3D
+- codepoints loading
+
+#### Models
+
+- animation
+- billboard
+- box collisions
+- cubicmap
+- first person maze
+- geometric shapes
+- mesh generation
+- mesh picking
+- loading
+- loading gltf
+- loading vox
+- loading m3d
+- orthographic projection
+- rlgl solar system
+- yaw pitch roll
+- waving cubes
+- heightmap
+- skybox
+- draw cube texture
+
+#### Shaders
+
+- basic lighting
+- model shader
+- shapes textures
+- custom uniform
+- postprocessing
+- palette switch
+- raymarching
+- texture drawing
+- texture outline
+- texture tiling
+- texture waves
+- julia set
+- eratosthenes
+- fog
+- simple mask
+- hot reloading
+- lightmap
+- mesh instancing
+- multi sample2d
+- spotlight
+- write depth
+- hybrid render
+- deferred render
+- basic pbr
 
 ## Credits
 

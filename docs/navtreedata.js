@@ -40,9 +40,15 @@ var NAVTREE =
         [ "Audio", "index.html#autotoc_md13", null ],
         [ "Utils and misc", "index.html#autotoc_md14", null ]
       ] ],
-      [ "Examples", "index.html#autotoc_md15", null ]
+      [ "Examples", "index.html#autotoc_md15", [
+        [ "Core", "index.html#autotoc_md16", null ],
+        [ "Shapes", "index.html#autotoc_md17", null ],
+        [ "Text", "index.html#autotoc_md18", null ],
+        [ "Models", "index.html#autotoc_md19", null ],
+        [ "Shaders", "index.html#autotoc_md20", null ]
+      ] ]
     ] ],
-    [ "Credits", "index.html#autotoc_md16", null ],
+    [ "Credits", "index.html#autotoc_md21", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
