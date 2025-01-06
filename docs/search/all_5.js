@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['enddrawing_0',['endDrawing',['../class_axle_1_1_window.html#afe289de65b3d8fa69ee5838c0a47e0fc',1,'Axle::Window']]],
-  ['examples_1',['Examples',['../index.html#autotoc_md15',1,'']]]
+  ['features_0',['Features',['../index.html#autotoc_md5',1,'']]]
 ];

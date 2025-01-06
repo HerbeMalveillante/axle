@@ -1,11 +1,6 @@
 var searchData=
 [
-  ['and_20misc_0',['Utils and misc',['../index.html#autotoc_md14',1,'']]],
-  ['and_20screen_1',['Window and screen',['../index.html#autotoc_md6',1,'']]],
-  ['and_20shaders_2',['Drawing and shaders',['../index.html#autotoc_md7',1,'']]],
-  ['audio_3',['Audio',['../index.html#autotoc_md13',1,'']]],
-  ['axle_4',['Axle',['../namespace_axle.html',1,'']]],
-  ['axle_5',['axle',['../index.html',1,'']]],
-  ['axle_3a_3aexamples_6',['Examples',['../namespace_axle_1_1_examples.html',1,'Axle']]],
-  ['axle_3a_3amath_7',['Math',['../namespace_axle_1_1_math.html',1,'Axle']]]
+  ['basicscreenmanager_0',['basicScreenManager',['../namespace_axle_1_1_examples.html#a914c018b25a38f0ec150155cc170a467',1,'Axle::Examples']]],
+  ['basicwindow_1',['basicWindow',['../namespace_axle_1_1_examples.html#aad61ebdcb0a57c9108ed77ed607844b6',1,'Axle::Examples']]],
+  ['begindrawing_2',['beginDrawing',['../class_axle_1_1_window.html#a49066f8583d4ae9e47308db6b615f6de',1,'Axle::Window']]]
 ];

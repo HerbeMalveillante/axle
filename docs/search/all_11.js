@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['window_0',['Window',['../class_axle_1_1_window.html',1,'Axle::Window'],['../class_axle_1_1_window.html#a634fad92ac13508a1523aefb01884399',1,'Axle::Window::Window()']]],
-  ['window_20and_20screen_1',['Window and screen',['../index.html#autotoc_md6',1,'']]]
+  ['x_0',['x',['../class_axle_1_1_math_1_1_vector2.html#a8098ffbf32c45e50177194eaa2e9ce78',1,'Axle::Math::Vector2']]]
 ];

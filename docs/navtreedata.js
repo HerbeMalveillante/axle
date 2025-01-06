@@ -25,30 +25,26 @@
 var NAVTREE =
 [
   [ "Axle", "index.html", [
-    [ "Usage", "index.html#autotoc_md1", null ],
-    [ "Documentation", "index.html#autotoc_md2", null ],
-    [ "Roadmap", "index.html#autotoc_md3", [
-      [ "Features", "index.html#autotoc_md4", [
-        [ "Primitives", "index.html#autotoc_md5", null ],
-        [ "Window and screen", "index.html#autotoc_md6", null ],
-        [ "Drawing and shaders", "index.html#autotoc_md7", null ],
-        [ "Input functions", "index.html#autotoc_md8", null ],
-        [ "Primitives", "index.html#autotoc_md9", null ],
-        [ "Textures", "index.html#autotoc_md10", null ],
-        [ "Text", "index.html#autotoc_md11", null ],
-        [ "3D", "index.html#autotoc_md12", null ],
-        [ "Audio", "index.html#autotoc_md13", null ],
-        [ "Utils and misc", "index.html#autotoc_md14", null ]
+    [ "Requirements", "index.html#autotoc_md1", null ],
+    [ "QuickStart", "index.html#autotoc_md2", null ],
+    [ "Documentation", "index.html#autotoc_md3", null ],
+    [ "Roadmap", "index.html#autotoc_md4", [
+      [ "Features", "index.html#autotoc_md5", [
+        [ "Done", "index.html#autotoc_md6", null ],
+        [ "Short Term", "index.html#autotoc_md7", null ],
+        [ "Medium Term", "index.html#autotoc_md8", null ],
+        [ "Long Term", "index.html#autotoc_md9", null ],
+        [ "Maybe ?", "index.html#autotoc_md10", null ]
       ] ],
-      [ "Examples", "index.html#autotoc_md15", [
-        [ "Core", "index.html#autotoc_md16", null ],
-        [ "Shapes", "index.html#autotoc_md17", null ],
-        [ "Text", "index.html#autotoc_md18", null ],
-        [ "Models", "index.html#autotoc_md19", null ],
-        [ "Shaders", "index.html#autotoc_md20", null ]
+      [ "Examples", "index.html#autotoc_md11", [
+        [ "Core", "index.html#autotoc_md12", null ],
+        [ "Shapes", "index.html#autotoc_md13", null ],
+        [ "Text", "index.html#autotoc_md14", null ],
+        [ "Models", "index.html#autotoc_md15", null ],
+        [ "Shaders", "index.html#autotoc_md16", null ]
       ] ]
     ] ],
-    [ "Credits", "index.html#autotoc_md21", null ],
+    [ "Credits", "index.html#autotoc_md17", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
