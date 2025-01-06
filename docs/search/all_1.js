@@ -6,5 +6,6 @@ var searchData=
   ['audio_3',['Audio',['../index.html#autotoc_md13',1,'']]],
   ['axle_4',['Axle',['../namespace_axle.html',1,'']]],
   ['axle_5',['axle',['../index.html',1,'']]],
-  ['axle_3a_3aexamples_6',['Examples',['../namespace_axle_1_1_examples.html',1,'Axle']]]
+  ['axle_3a_3aexamples_6',['Examples',['../namespace_axle_1_1_examples.html',1,'Axle']]],
+  ['axle_3a_3amath_7',['Math',['../namespace_axle_1_1_math.html',1,'Axle']]]
 ];

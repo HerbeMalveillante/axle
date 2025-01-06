@@ -5,9 +5,10 @@ var namespace_axle =
       [ "basicWindow", "namespace_axle_1_1_examples.html#aad61ebdcb0a57c9108ed77ed607844b6", null ],
       [ "customExample", "namespace_axle_1_1_examples.html#a731085a0d1039cffe4b9bf6e63f7690d", null ]
     ] ],
+    [ "Math", "namespace_axle_1_1_math.html", "namespace_axle_1_1_math" ],
     [ "Color", "class_axle_1_1_color.html", "class_axle_1_1_color" ],
-    [ "Rectangle", "class_axle_1_1_rectangle.html", null ],
-    [ "Shape", "class_axle_1_1_shape.html", null ],
+    [ "Rectangle", "class_axle_1_1_rectangle.html", "class_axle_1_1_rectangle" ],
+    [ "Shape", "class_axle_1_1_shape.html", "class_axle_1_1_shape" ],
     [ "Window", "class_axle_1_1_window.html", "class_axle_1_1_window" ],
     [ "ColorPreset", "namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8", [
       [ "COLOR_LIGHTGRAY", "namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a41995e78e148f7fb16e9d0ee54b69867", null ],

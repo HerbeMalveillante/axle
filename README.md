@@ -67,8 +67,8 @@ The following features may be implemented in the near future :
 
 #### Primitives
 
-- Rectangle
-- Vector2 / Point
+- Rectangle ✅
+- Vector2 / Point ✅
 - Vector3
 - Matrixes
 - Color ✅
@@ -125,7 +125,7 @@ The following features may be implemented in the near future :
 - Draw circle sectors
 - Draw ellipses
 - Draw rings
-- Draw rectangles
+- Draw rectangles ✅
 - Draw triangles
 - Draw polygons
 - Check collisions between each aforementioned shape

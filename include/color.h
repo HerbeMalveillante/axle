@@ -6,6 +6,58 @@ namespace Axle
 
     /**
      * @brief This enum is used to represent a color preset that can later be used to replace a color object in many places.
+     *
+     * Available presets:
+     *
+     * - COLOR_LIGHTGRAY
+     *
+     * - COLOR_GRAY
+     *
+     * - COLOR_DARKGRAY
+     *
+     * - COLOR_YELLOW
+     *
+     * - COLOR_GOLD
+     *
+     * - COLOR_ORANGE
+     *
+     * - COLOR_PINK
+     *
+     * - COLOR_RED
+     *
+     * - COLOR_MAROON
+     *
+     * - COLOR_GREEN
+     *
+     * - COLOR_LIME
+     *
+     * - COLOR_DARKGREEN
+     *
+     * - COLOR_SKYBLUE
+     *
+     * - COLOR_BLUE
+     *
+     * - COLOR_DARKBLUE
+     *
+     * - COLOR_PURPLE
+     *
+     * - COLOR_VIOLET
+     *
+     * - COLOR_DARKPURPLE
+     *
+     * - COLOR_BEIGE
+     *
+     * - COLOR_BROWN
+     *
+     * - COLOR_DARKBROWN
+     *
+     * - COLOR_WHITE
+     *
+     * - COLOR_BLACK
+     *
+     * - COLOR_BLANK
+     *
+     * - COLOR_MAGENTA
      */
     enum class ColorPreset
     {

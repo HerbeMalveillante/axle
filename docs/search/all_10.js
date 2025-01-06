@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['window_0',['Window',['../class_axle_1_1_window.html',1,'Axle::Window'],['../class_axle_1_1_window.html#a634fad92ac13508a1523aefb01884399',1,'Axle::Window::Window()']]],
-  ['window_20and_20screen_1',['Window and screen',['../index.html#autotoc_md6',1,'']]]
+  ['vector2_0',['Vector2',['../class_axle_1_1_math_1_1_vector2.html',1,'Axle::Math::Vector2'],['../class_axle_1_1_math_1_1_vector2.html#a8775b9678ec1eed1c6a6affd21b36bbe',1,'Axle::Math::Vector2::Vector2()'],['../class_axle_1_1_math_1_1_vector2.html#ae388fed345eaaae28b790e7e185c4146',1,'Axle::Math::Vector2::Vector2(double x, double y)']]]
 ];

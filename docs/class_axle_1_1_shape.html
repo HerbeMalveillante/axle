@@ -108,35 +108,112 @@ $(function(){initNavTree('class_axle_1_1_shape.html',''); initResizable(true); }
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="class_axle_1_1_shape-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Axle::Shape Class Reference<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Base class for all shapes.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;shapes.h&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Axle::Shape:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_axle_1_1_shape.png" usemap="#Axle::Shape_map" alt=""/>
   <map id="Axle::Shape_map" name="Axle::Shape_map">
-<area href="class_axle_1_1_rectangle.html" alt="Axle::Rectangle" shape="rect" coords="0,56,99,80"/>
+<area href="class_axle_1_1_rectangle.html" title="A class representing a rectangle." alt="Axle::Rectangle" shape="rect" coords="0,56,99,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a60cdea18b85f0b11bda22645cd02f2c2" id="r_a60cdea18b85f0b11bda22645cd02f2c2"><td class="memItemLeft" align="right" valign="top"><a id="a60cdea18b85f0b11bda22645cd02f2c2" name="a60cdea18b85f0b11bda22645cd02f2c2"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> () const =0</td></tr>
+<tr class="memitem:a60cdea18b85f0b11bda22645cd02f2c2" id="r_a60cdea18b85f0b11bda22645cd02f2c2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60cdea18b85f0b11bda22645cd02f2c2">Draw</a> () const =0</td></tr>
+<tr class="memdesc:a60cdea18b85f0b11bda22645cd02f2c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the shape on the screen.  <br /></td></tr>
 <tr class="separator:a60cdea18b85f0b11bda22645cd02f2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa4a506bd094a3cdc44dfced7434ba241" id="r_aa4a506bd094a3cdc44dfced7434ba241"><td class="memItemLeft" align="right" valign="top"><a id="aa4a506bd094a3cdc44dfced7434ba241" name="aa4a506bd094a3cdc44dfced7434ba241"></a>
 <a class="el" href="class_axle_1_1_color.html">Axle::Color</a>&#160;</td><td class="memItemRight" valign="bottom"><b>color</b></td></tr>
+<tr class="memdesc:aa4a506bd094a3cdc44dfced7434ba241"><td class="mdescLeft">&#160;</td><td class="mdescRight">The color of the shape. <br /></td></tr>
 <tr class="separator:aa4a506bd094a3cdc44dfced7434ba241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea8f7d583ba0f3ca85503e59060ce8aa" id="r_aea8f7d583ba0f3ca85503e59060ce8aa"><td class="memItemLeft" align="right" valign="top"><a id="aea8f7d583ba0f3ca85503e59060ce8aa" name="aea8f7d583ba0f3ca85503e59060ce8aa"></a>
 <a class="el" href="class_axle_1_1_math_1_1_vector2.html">Axle::Math::Vector2</a>&#160;</td><td class="memItemRight" valign="bottom"><b>position</b></td></tr>
+<tr class="memdesc:aea8f7d583ba0f3ca85503e59060ce8aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of the center of the shape. <br /></td></tr>
 <tr class="separator:aea8f7d583ba0f3ca85503e59060ce8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a53057f987f651d3d543c5fb033dddd8a" id="r_a53057f987f651d3d543c5fb033dddd8a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53057f987f651d3d543c5fb033dddd8a">Shape</a> ()</td></tr>
+<tr class="memdesc:a53057f987f651d3d543c5fb033dddd8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="class_axle_1_1_shape.html" title="Base class for all shapes.">Shape</a> object.  <br /></td></tr>
+<tr class="separator:a53057f987f651d3d543c5fb033dddd8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Base class for all shapes. </p>
+<p>This class is used to represent a shape that can be drawn on the screen. It should not be instantiated directly, but rather be used as a base class for other shapes. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a53057f987f651d3d543c5fb033dddd8a" name="a53057f987f651d3d543c5fb033dddd8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53057f987f651d3d543c5fb033dddd8a">&#9670;&#160;</a></span>Shape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Axle::Shape::Shape </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct a new <a class="el" href="class_axle_1_1_shape.html" title="Base class for all shapes.">Shape</a> object. </p>
+<p>This constructor is protected to prevent instantiation of the <a class="el" href="class_axle_1_1_shape.html" title="Base class for all shapes.">Shape</a> class.</p>
+<p>The color is set to white and the position is set to (0, 0). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a60cdea18b85f0b11bda22645cd02f2c2" name="a60cdea18b85f0b11bda22645cd02f2c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60cdea18b85f0b11bda22645cd02f2c2">&#9670;&#160;</a></span>Draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Axle::Shape::Draw </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel pure-virtual">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draw the shape on the screen. </p>
+
+<p>Implemented in <a class="el" href="class_axle_1_1_rectangle.html#a7302d1040a4987d6ec08a983a9e228dd">Axle::Rectangle</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>axle/include/<b>shapes.h</b></li>
 <li>axle/src/<b>shapes.cpp</b></li>

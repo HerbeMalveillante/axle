@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['violet_0',['VIOLET',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a3df9f09dbf0774e4edf801e77aea339b',1,'Axle']]]
+  ['window_0',['Window',['../class_axle_1_1_window.html',1,'Axle::Window'],['../class_axle_1_1_window.html#a634fad92ac13508a1523aefb01884399',1,'Axle::Window::Window()']]],
+  ['window_20and_20screen_1',['Window and screen',['../index.html#autotoc_md6',1,'']]]
 ];

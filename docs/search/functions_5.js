@@ -1,10 +1,13 @@
 var searchData=
 [
-  ['seta_0',['setA',['../class_axle_1_1_color.html#a369d4b960fd5733e44ff60ee7fb3b096',1,'Axle::Color']]],
-  ['setb_1',['setB',['../class_axle_1_1_color.html#a746eef5195cb4ae6d52e5751520ec1ae',1,'Axle::Color']]],
-  ['setcolor_2',['setColor',['../class_axle_1_1_color.html#adc025e1c3a9a6a4088c6383139d4e280',1,'Axle::Color::setColor(unsigned char r, unsigned char g, unsigned char b, unsigned char a)'],['../class_axle_1_1_color.html#a94f0e9306386fcf5d7c257ca26a20b75',1,'Axle::Color::setColor(ColorPreset preset)']]],
-  ['setg_3',['setG',['../class_axle_1_1_color.html#ad127d23c4f569559b5b32144c10e64c5',1,'Axle::Color']]],
-  ['setr_4',['setR',['../class_axle_1_1_color.html#a5a6c886ebb2bb8977f4479f88eea7e74',1,'Axle::Color']]],
-  ['settargetfps_5',['setTargetFPS',['../class_axle_1_1_window.html#af755b6e55182114423cdbe94f27401c0',1,'Axle::Window']]],
-  ['shouldclose_6',['shouldClose',['../class_axle_1_1_window.html#ae5a705f88e46ee5cba60dc960528427c',1,'Axle::Window']]]
+  ['operator_21_3d_0',['operator!=',['../class_axle_1_1_math_1_1_vector2.html#ac7a5639a464902c57cf98c96798bed7b',1,'Axle::Math::Vector2']]],
+  ['operator_2a_1',['operator*',['../class_axle_1_1_math_1_1_vector2.html#a1c118f16a314290669cc0ddbf7ccc54e',1,'Axle::Math::Vector2']]],
+  ['operator_2a_3d_2',['operator*=',['../class_axle_1_1_math_1_1_vector2.html#a3d1af2aef754266bd98f8aaccae81026',1,'Axle::Math::Vector2']]],
+  ['operator_2b_3',['operator+',['../class_axle_1_1_math_1_1_vector2.html#a8a675a4e0ca30f6ba9a64117265404b1',1,'Axle::Math::Vector2']]],
+  ['operator_2b_3d_4',['operator+=',['../class_axle_1_1_math_1_1_vector2.html#a831d49346b655b508496989af319b8f8',1,'Axle::Math::Vector2']]],
+  ['operator_2d_5',['operator-',['../class_axle_1_1_math_1_1_vector2.html#a33336deb05cfc6cdcb13f5055b0b4c3c',1,'Axle::Math::Vector2::operator-(const Vector2 &amp;other) const'],['../class_axle_1_1_math_1_1_vector2.html#a15acea52c2a4cafdc0edfff0277b53cf',1,'Axle::Math::Vector2::operator-() const']]],
+  ['operator_2d_3d_6',['operator-=',['../class_axle_1_1_math_1_1_vector2.html#afc73987e0fee4e50dbab763fa87087a3',1,'Axle::Math::Vector2']]],
+  ['operator_2f_7',['operator/',['../class_axle_1_1_math_1_1_vector2.html#a7f6af0f01fba942f29d7b7045bbc9655',1,'Axle::Math::Vector2']]],
+  ['operator_2f_3d_8',['operator/=',['../class_axle_1_1_math_1_1_vector2.html#ab696c76503d0ffd060138834387c475a',1,'Axle::Math::Vector2']]],
+  ['operator_3d_3d_9',['operator==',['../class_axle_1_1_math_1_1_vector2.html#a5ca98e9f1cd5d45bf162f173bbe7684c',1,'Axle::Math::Vector2']]]
 ];

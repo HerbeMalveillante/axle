@@ -50,6 +50,8 @@ namespace Axle
 
     void Rectangle::Draw() const
     {
-        // Do nothing for now
+        int x = this->position.x - this->width / 2;
+        int y = this->position.y - this->height / 2;
+        DrawRectangle(x, y, this->width, this->height, {this->color.getR(), this->color.getG(), this->color.getB(), this->color.getA()});
     }
 }

@@ -3,6 +3,9 @@
 
 #include "examples.h"
 #include "window.h"
+#include "shapes.h"
+#include "color.h"
+#include "vector2.h"
 
 /**
  * @brief The main namespace of the Axle engine. All the features of the engine are contained within this namespace.
@@ -28,6 +31,13 @@ namespace Axle
  * @note The original examples can be found at https://www.raylib.com/examples.html
  */
 namespace Axle::Examples
+{
+}
+
+/**
+ * @brief The Math namespace contains all the mathematical functions and classes used by the engine.
+ */
+namespace Axle::Math
 {
 }
 

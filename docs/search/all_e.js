@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['usage_0',['Usage',['../index.html#autotoc_md1',1,'']]],
-  ['utils_20and_20misc_1',['Utils and misc',['../index.html#autotoc_md14',1,'']]]
+  ['text_0',['Text',['../index.html#autotoc_md11',1,'Text'],['../index.html#autotoc_md18',1,'Text']]],
+  ['textures_1',['Textures',['../index.html#autotoc_md10',1,'']]]
 ];
