@@ -127,6 +127,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_axle_1_1_color.html">Color</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class is used to represent a color in the RGBA format.  <a href="class_axle_1_1_color.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_axle_1_1_rectangle.html">Rectangle</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_axle_1_1_shape.html">Shape</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_axle_1_1_window.html">Window</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a window that can be created and managed by the engine.  <a href="class_axle_1_1_window.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,37 +138,37 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a8a8f7110cf295b29d4bfbcbd7b131ca8" id="r_a8a8f7110cf295b29d4bfbcbd7b131ca8"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8">ColorPreset</a> { <br />
-&#160;&#160;<a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a046c542c1879961609e6d616fdf383f6">LIGHTGRAY</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a48bf014c704c9eaae100a98006a37bf7">GRAY</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a0e1e6fddb3b7f6b796fd388b27dc02ab">DARKGRAY</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a8a568e5f41b7e4da88fe5c4a00aad34e">YELLOW</a>
+&#160;&#160;<a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a41995e78e148f7fb16e9d0ee54b69867">COLOR_LIGHTGRAY</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a1440fb67930d5d8b666a89b3d12e4e78">COLOR_GRAY</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a021be8f49dace9c82cc6c622638a039d">COLOR_DARKGRAY</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8adea6feda9ea7b5540bd1ad477a399c6f">COLOR_YELLOW</a>
 , <br />
-&#160;&#160;<a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a2c0898822ab3baf7f93bea86648adb26">GOLD</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a5b6490317b6f7270bc3ab5ffd07c1f52">ORANGE</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a2536bd3910cf3069e2cd184e614ea97d">PINK</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8aa2d9547b5d3dd9f05984475f7c926da0">RED</a>
+&#160;&#160;<a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8ab82d2e166ed16565ee7f0cd0f9ed2765">COLOR_GOLD</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a2dc3863f70dc8f9df56962cf6e3f29c0">COLOR_ORANGE</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a3394230504badf50745d65a2a35887e9">COLOR_PINK</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a672873587bf05ba7185e2a2d6eb9f6f9">COLOR_RED</a>
 , <br />
-&#160;&#160;<a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8ab0459ecc882a7ea7cc98dd4275d5d181">MAROON</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a9de0e5dd94e861317e74964bed179fa0">GREEN</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a2cf3a2965e9238d68222de372e70e935">LIME</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a0375de91b1558838e15231ca2a939f84">DARKGREEN</a>
+&#160;&#160;<a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a88c6bcf4e3b1b427b8cfbbf07139039a">COLOR_MAROON</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a180a23cd50c517604c6cfe1b3d80773d">COLOR_GREEN</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a49d72d673f23d36b2a39dfc92c48f0ce">COLOR_LIME</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a3088e953caa684c58dc92be03c4329af">COLOR_DARKGREEN</a>
 , <br />
-&#160;&#160;<a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a0c82ca04b8123fae4a3d14d3ac9dbbd5">SKYBLUE</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a1b3e1ee9bff86431dea6b181365ba65f">BLUE</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a06e2fdcb92e9bdbc9075c0d8365f453f">DARKBLUE</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8aec9c138095a352a9b7ef9ca5363b14d9">PURPLE</a>
+&#160;&#160;<a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a7e295bedb1e0462c2208b9a1312bb1fd">COLOR_SKYBLUE</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a53f69f83ffd5c13cc52c0d384e11c394">COLOR_BLUE</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a1fd674444697ee2c6d7deac6e2926f58">COLOR_DARKBLUE</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a7561c91beb589712e696b1ead2186f60">COLOR_PURPLE</a>
 , <br />
-&#160;&#160;<a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a3df9f09dbf0774e4edf801e77aea339b">VIOLET</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a2bfe1e1c35bb64f961908243773b9aa1">DARKPURPLE</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a837b1cca89daac46ffecac7bd4923779">BEIGE</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a493cacf6f6a2ae4798b319b8b9ba9488">BROWN</a>
+&#160;&#160;<a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a34612093781ebe1ebb40b69b4cff607a">COLOR_VIOLET</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a4bec254a382df0a93447580a3121bfc5">COLOR_DARKPURPLE</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8adda34f032af912cf75477b80d9c2faee">COLOR_BEIGE</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a5bff307c138842ec65cb935d64f8b225">COLOR_BROWN</a>
 , <br />
-&#160;&#160;<a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8ade1f378f72c71113be9329a741547c8b">DARKBROWN</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8ab5bf627e448384cf3a4c35121ca6008d">WHITE</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a08d0012388564e95c3b4a7407cf04965">BLACK</a>
-, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a56f031dd03707d695f76c63ddbf40bd7">BLANK</a>
+&#160;&#160;<a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a7b1741d575a20c15b330d48fa636231e">COLOR_DARKBROWN</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a2b3a19181ff01a8ef924841b67eed92e">COLOR_WHITE</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a5e5cea0d4c88b925440f00651b538612">COLOR_BLACK</a>
+, <a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8afc4de4c485e69a3058f4f2e7bbc1dd0b">COLOR_BLANK</a>
 , <br />
-&#160;&#160;<a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8ac634ffea7195608364671ac52ee59a61">MAGENTA</a>
+&#160;&#160;<a class="el" href="#a8a8f7110cf295b29d4bfbcbd7b131ca8a9b6e4fad9007204f76df6cd6e1ce1bf4">COLOR_MAGENTA</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a8a8f7110cf295b29d4bfbcbd7b131ca8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This enum is used to represent a color preset that can later be used to replace a color object in many places.  <a href="#a8a8f7110cf295b29d4bfbcbd7b131ca8">More...</a><br /></td></tr>
@@ -195,55 +199,55 @@ Enumerations</h2></td></tr>
 
 <p>This enum is used to represent a color preset that can later be used to replace a color object in many places. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a046c542c1879961609e6d616fdf383f6" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a046c542c1879961609e6d616fdf383f6"></a>LIGHTGRAY&#160;</td><td class="fielddoc"><p>200, 200, 200, 255 (Light Gray) </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a41995e78e148f7fb16e9d0ee54b69867" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a41995e78e148f7fb16e9d0ee54b69867"></a>COLOR_LIGHTGRAY&#160;</td><td class="fielddoc"><p>200, 200, 200, 255 (Light Gray) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a48bf014c704c9eaae100a98006a37bf7" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a48bf014c704c9eaae100a98006a37bf7"></a>GRAY&#160;</td><td class="fielddoc"><p>130, 130, 130, 255 (Gray) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a1440fb67930d5d8b666a89b3d12e4e78" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a1440fb67930d5d8b666a89b3d12e4e78"></a>COLOR_GRAY&#160;</td><td class="fielddoc"><p>130, 130, 130, 255 (Gray) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a0e1e6fddb3b7f6b796fd388b27dc02ab" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a0e1e6fddb3b7f6b796fd388b27dc02ab"></a>DARKGRAY&#160;</td><td class="fielddoc"><p>80, 80, 80, 255 (Dark Gray) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a021be8f49dace9c82cc6c622638a039d" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a021be8f49dace9c82cc6c622638a039d"></a>COLOR_DARKGRAY&#160;</td><td class="fielddoc"><p>80, 80, 80, 255 (Dark Gray) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a8a568e5f41b7e4da88fe5c4a00aad34e" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a8a568e5f41b7e4da88fe5c4a00aad34e"></a>YELLOW&#160;</td><td class="fielddoc"><p>253, 249, 0, 255 (Yellow) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8adea6feda9ea7b5540bd1ad477a399c6f" name="a8a8f7110cf295b29d4bfbcbd7b131ca8adea6feda9ea7b5540bd1ad477a399c6f"></a>COLOR_YELLOW&#160;</td><td class="fielddoc"><p>253, 249, 0, 255 (Yellow) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a2c0898822ab3baf7f93bea86648adb26" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a2c0898822ab3baf7f93bea86648adb26"></a>GOLD&#160;</td><td class="fielddoc"><p>255, 203, 0, 255 (Gold) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8ab82d2e166ed16565ee7f0cd0f9ed2765" name="a8a8f7110cf295b29d4bfbcbd7b131ca8ab82d2e166ed16565ee7f0cd0f9ed2765"></a>COLOR_GOLD&#160;</td><td class="fielddoc"><p>255, 203, 0, 255 (Gold) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a5b6490317b6f7270bc3ab5ffd07c1f52" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a5b6490317b6f7270bc3ab5ffd07c1f52"></a>ORANGE&#160;</td><td class="fielddoc"><p>255, 161, 0, 255 (Orange) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a2dc3863f70dc8f9df56962cf6e3f29c0" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a2dc3863f70dc8f9df56962cf6e3f29c0"></a>COLOR_ORANGE&#160;</td><td class="fielddoc"><p>255, 161, 0, 255 (Orange) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a2536bd3910cf3069e2cd184e614ea97d" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a2536bd3910cf3069e2cd184e614ea97d"></a>PINK&#160;</td><td class="fielddoc"><p>255, 109, 194, 255 (Pink) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a3394230504badf50745d65a2a35887e9" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a3394230504badf50745d65a2a35887e9"></a>COLOR_PINK&#160;</td><td class="fielddoc"><p>255, 109, 194, 255 (Pink) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8aa2d9547b5d3dd9f05984475f7c926da0" name="a8a8f7110cf295b29d4bfbcbd7b131ca8aa2d9547b5d3dd9f05984475f7c926da0"></a>RED&#160;</td><td class="fielddoc"><p>230, 41, 55, 255 (Red) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a672873587bf05ba7185e2a2d6eb9f6f9" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a672873587bf05ba7185e2a2d6eb9f6f9"></a>COLOR_RED&#160;</td><td class="fielddoc"><p>230, 41, 55, 255 (Red) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8ab0459ecc882a7ea7cc98dd4275d5d181" name="a8a8f7110cf295b29d4bfbcbd7b131ca8ab0459ecc882a7ea7cc98dd4275d5d181"></a>MAROON&#160;</td><td class="fielddoc"><p>190, 33, 55, 255 (Maroon) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a88c6bcf4e3b1b427b8cfbbf07139039a" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a88c6bcf4e3b1b427b8cfbbf07139039a"></a>COLOR_MAROON&#160;</td><td class="fielddoc"><p>190, 33, 55, 255 (Maroon) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a9de0e5dd94e861317e74964bed179fa0" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a9de0e5dd94e861317e74964bed179fa0"></a>GREEN&#160;</td><td class="fielddoc"><p>0, 228, 48, 255 (Green) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a180a23cd50c517604c6cfe1b3d80773d" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a180a23cd50c517604c6cfe1b3d80773d"></a>COLOR_GREEN&#160;</td><td class="fielddoc"><p>0, 228, 48, 255 (Green) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a2cf3a2965e9238d68222de372e70e935" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a2cf3a2965e9238d68222de372e70e935"></a>LIME&#160;</td><td class="fielddoc"><p>0, 158, 47, 255 (Lime) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a49d72d673f23d36b2a39dfc92c48f0ce" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a49d72d673f23d36b2a39dfc92c48f0ce"></a>COLOR_LIME&#160;</td><td class="fielddoc"><p>0, 158, 47, 255 (Lime) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a0375de91b1558838e15231ca2a939f84" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a0375de91b1558838e15231ca2a939f84"></a>DARKGREEN&#160;</td><td class="fielddoc"><p>0, 117, 44, 255 (Dark Green) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a3088e953caa684c58dc92be03c4329af" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a3088e953caa684c58dc92be03c4329af"></a>COLOR_DARKGREEN&#160;</td><td class="fielddoc"><p>0, 117, 44, 255 (Dark Green) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a0c82ca04b8123fae4a3d14d3ac9dbbd5" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a0c82ca04b8123fae4a3d14d3ac9dbbd5"></a>SKYBLUE&#160;</td><td class="fielddoc"><p>102, 191, 255, 255 (Sky Blue) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a7e295bedb1e0462c2208b9a1312bb1fd" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a7e295bedb1e0462c2208b9a1312bb1fd"></a>COLOR_SKYBLUE&#160;</td><td class="fielddoc"><p>102, 191, 255, 255 (Sky Blue) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a1b3e1ee9bff86431dea6b181365ba65f" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a1b3e1ee9bff86431dea6b181365ba65f"></a>BLUE&#160;</td><td class="fielddoc"><p>0, 121, 241, 255 (Blue) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a53f69f83ffd5c13cc52c0d384e11c394" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a53f69f83ffd5c13cc52c0d384e11c394"></a>COLOR_BLUE&#160;</td><td class="fielddoc"><p>0, 121, 241, 255 (Blue) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a06e2fdcb92e9bdbc9075c0d8365f453f" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a06e2fdcb92e9bdbc9075c0d8365f453f"></a>DARKBLUE&#160;</td><td class="fielddoc"><p>0, 82, 172, 255 (Dark Blue) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a1fd674444697ee2c6d7deac6e2926f58" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a1fd674444697ee2c6d7deac6e2926f58"></a>COLOR_DARKBLUE&#160;</td><td class="fielddoc"><p>0, 82, 172, 255 (Dark Blue) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8aec9c138095a352a9b7ef9ca5363b14d9" name="a8a8f7110cf295b29d4bfbcbd7b131ca8aec9c138095a352a9b7ef9ca5363b14d9"></a>PURPLE&#160;</td><td class="fielddoc"><p>200, 122, 255, 255 (Purple) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a7561c91beb589712e696b1ead2186f60" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a7561c91beb589712e696b1ead2186f60"></a>COLOR_PURPLE&#160;</td><td class="fielddoc"><p>200, 122, 255, 255 (Purple) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a3df9f09dbf0774e4edf801e77aea339b" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a3df9f09dbf0774e4edf801e77aea339b"></a>VIOLET&#160;</td><td class="fielddoc"><p>135, 60, 190, 255 (Violet) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a34612093781ebe1ebb40b69b4cff607a" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a34612093781ebe1ebb40b69b4cff607a"></a>COLOR_VIOLET&#160;</td><td class="fielddoc"><p>135, 60, 190, 255 (Violet) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a2bfe1e1c35bb64f961908243773b9aa1" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a2bfe1e1c35bb64f961908243773b9aa1"></a>DARKPURPLE&#160;</td><td class="fielddoc"><p>112, 31, 126, 255 (Dark Purple) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a4bec254a382df0a93447580a3121bfc5" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a4bec254a382df0a93447580a3121bfc5"></a>COLOR_DARKPURPLE&#160;</td><td class="fielddoc"><p>112, 31, 126, 255 (Dark Purple) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a837b1cca89daac46ffecac7bd4923779" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a837b1cca89daac46ffecac7bd4923779"></a>BEIGE&#160;</td><td class="fielddoc"><p>211, 176, 131, 255 (Beige) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8adda34f032af912cf75477b80d9c2faee" name="a8a8f7110cf295b29d4bfbcbd7b131ca8adda34f032af912cf75477b80d9c2faee"></a>COLOR_BEIGE&#160;</td><td class="fielddoc"><p>211, 176, 131, 255 (Beige) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a493cacf6f6a2ae4798b319b8b9ba9488" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a493cacf6f6a2ae4798b319b8b9ba9488"></a>BROWN&#160;</td><td class="fielddoc"><p>127, 106, 79, 255 (Brown) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a5bff307c138842ec65cb935d64f8b225" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a5bff307c138842ec65cb935d64f8b225"></a>COLOR_BROWN&#160;</td><td class="fielddoc"><p>127, 106, 79, 255 (Brown) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8ade1f378f72c71113be9329a741547c8b" name="a8a8f7110cf295b29d4bfbcbd7b131ca8ade1f378f72c71113be9329a741547c8b"></a>DARKBROWN&#160;</td><td class="fielddoc"><p>76, 63, 47, 255 (Dark Brown) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a7b1741d575a20c15b330d48fa636231e" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a7b1741d575a20c15b330d48fa636231e"></a>COLOR_DARKBROWN&#160;</td><td class="fielddoc"><p>76, 63, 47, 255 (Dark Brown) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8ab5bf627e448384cf3a4c35121ca6008d" name="a8a8f7110cf295b29d4bfbcbd7b131ca8ab5bf627e448384cf3a4c35121ca6008d"></a>WHITE&#160;</td><td class="fielddoc"><p>255, 255, 255, 255 (White) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a2b3a19181ff01a8ef924841b67eed92e" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a2b3a19181ff01a8ef924841b67eed92e"></a>COLOR_WHITE&#160;</td><td class="fielddoc"><p>255, 255, 255, 255 (White) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a08d0012388564e95c3b4a7407cf04965" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a08d0012388564e95c3b4a7407cf04965"></a>BLACK&#160;</td><td class="fielddoc"><p>0, 0, 0, 255 (Black) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a5e5cea0d4c88b925440f00651b538612" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a5e5cea0d4c88b925440f00651b538612"></a>COLOR_BLACK&#160;</td><td class="fielddoc"><p>0, 0, 0, 255 (Black) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a56f031dd03707d695f76c63ddbf40bd7" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a56f031dd03707d695f76c63ddbf40bd7"></a>BLANK&#160;</td><td class="fielddoc"><p>0, 0, 0, 0 (Blank / Transparent) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8afc4de4c485e69a3058f4f2e7bbc1dd0b" name="a8a8f7110cf295b29d4bfbcbd7b131ca8afc4de4c485e69a3058f4f2e7bbc1dd0b"></a>COLOR_BLANK&#160;</td><td class="fielddoc"><p>0, 0, 0, 0 (Blank / Transparent) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8ac634ffea7195608364671ac52ee59a61" name="a8a8f7110cf295b29d4bfbcbd7b131ca8ac634ffea7195608364671ac52ee59a61"></a>MAGENTA&#160;</td><td class="fielddoc"><p>255, 0, 255, 255 (Magenta) </p>
+<tr><td class="fieldname"><a id="a8a8f7110cf295b29d4bfbcbd7b131ca8a9b6e4fad9007204f76df6cd6e1ce1bf4" name="a8a8f7110cf295b29d4bfbcbd7b131ca8a9b6e4fad9007204f76df6cd6e1ce1bf4"></a>COLOR_MAGENTA&#160;</td><td class="fielddoc"><p>255, 0, 255, 255 (Magenta) </p>
 </td></tr>
 </table>
 

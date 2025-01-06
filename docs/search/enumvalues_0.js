@@ -1,8 +1,28 @@
 var searchData=
 [
-  ['beige_0',['BEIGE',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a837b1cca89daac46ffecac7bd4923779',1,'Axle']]],
-  ['black_1',['BLACK',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a08d0012388564e95c3b4a7407cf04965',1,'Axle']]],
-  ['blank_2',['BLANK',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a56f031dd03707d695f76c63ddbf40bd7',1,'Axle']]],
-  ['blue_3',['BLUE',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a1b3e1ee9bff86431dea6b181365ba65f',1,'Axle']]],
-  ['brown_4',['BROWN',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a493cacf6f6a2ae4798b319b8b9ba9488',1,'Axle']]]
+  ['color_5fbeige_0',['COLOR_BEIGE',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8adda34f032af912cf75477b80d9c2faee',1,'Axle']]],
+  ['color_5fblack_1',['COLOR_BLACK',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a5e5cea0d4c88b925440f00651b538612',1,'Axle']]],
+  ['color_5fblank_2',['COLOR_BLANK',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8afc4de4c485e69a3058f4f2e7bbc1dd0b',1,'Axle']]],
+  ['color_5fblue_3',['COLOR_BLUE',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a53f69f83ffd5c13cc52c0d384e11c394',1,'Axle']]],
+  ['color_5fbrown_4',['COLOR_BROWN',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a5bff307c138842ec65cb935d64f8b225',1,'Axle']]],
+  ['color_5fdarkblue_5',['COLOR_DARKBLUE',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a1fd674444697ee2c6d7deac6e2926f58',1,'Axle']]],
+  ['color_5fdarkbrown_6',['COLOR_DARKBROWN',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a7b1741d575a20c15b330d48fa636231e',1,'Axle']]],
+  ['color_5fdarkgray_7',['COLOR_DARKGRAY',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a021be8f49dace9c82cc6c622638a039d',1,'Axle']]],
+  ['color_5fdarkgreen_8',['COLOR_DARKGREEN',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a3088e953caa684c58dc92be03c4329af',1,'Axle']]],
+  ['color_5fdarkpurple_9',['COLOR_DARKPURPLE',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a4bec254a382df0a93447580a3121bfc5',1,'Axle']]],
+  ['color_5fgold_10',['COLOR_GOLD',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8ab82d2e166ed16565ee7f0cd0f9ed2765',1,'Axle']]],
+  ['color_5fgray_11',['COLOR_GRAY',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a1440fb67930d5d8b666a89b3d12e4e78',1,'Axle']]],
+  ['color_5fgreen_12',['COLOR_GREEN',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a180a23cd50c517604c6cfe1b3d80773d',1,'Axle']]],
+  ['color_5flightgray_13',['COLOR_LIGHTGRAY',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a41995e78e148f7fb16e9d0ee54b69867',1,'Axle']]],
+  ['color_5flime_14',['COLOR_LIME',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a49d72d673f23d36b2a39dfc92c48f0ce',1,'Axle']]],
+  ['color_5fmagenta_15',['COLOR_MAGENTA',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a9b6e4fad9007204f76df6cd6e1ce1bf4',1,'Axle']]],
+  ['color_5fmaroon_16',['COLOR_MAROON',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a88c6bcf4e3b1b427b8cfbbf07139039a',1,'Axle']]],
+  ['color_5forange_17',['COLOR_ORANGE',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a2dc3863f70dc8f9df56962cf6e3f29c0',1,'Axle']]],
+  ['color_5fpink_18',['COLOR_PINK',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a3394230504badf50745d65a2a35887e9',1,'Axle']]],
+  ['color_5fpurple_19',['COLOR_PURPLE',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a7561c91beb589712e696b1ead2186f60',1,'Axle']]],
+  ['color_5fred_20',['COLOR_RED',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a672873587bf05ba7185e2a2d6eb9f6f9',1,'Axle']]],
+  ['color_5fskyblue_21',['COLOR_SKYBLUE',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a7e295bedb1e0462c2208b9a1312bb1fd',1,'Axle']]],
+  ['color_5fviolet_22',['COLOR_VIOLET',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a34612093781ebe1ebb40b69b4cff607a',1,'Axle']]],
+  ['color_5fwhite_23',['COLOR_WHITE',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8a2b3a19181ff01a8ef924841b67eed92e',1,'Axle']]],
+  ['color_5fyellow_24',['COLOR_YELLOW',['../namespace_axle.html#a8a8f7110cf295b29d4bfbcbd7b131ca8adea6feda9ea7b5540bd1ad477a399c6f',1,'Axle']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['usage_0',['Usage',['../index.html#autotoc_md1',1,'']]],
-  ['utils_20and_20misc_1',['Utils and misc',['../index.html#autotoc_md14',1,'']]]
+  ['window_0',['Window',['../class_axle_1_1_window.html',1,'Axle::Window'],['../class_axle_1_1_window.html#a634fad92ac13508a1523aefb01884399',1,'Axle::Window::Window()']]],
+  ['window_20and_20screen_1',['Window and screen',['../index.html#autotoc_md6',1,'']]]
 ];

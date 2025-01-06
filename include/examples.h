@@ -18,6 +18,13 @@ namespace Axle::Examples
      * This example is a custom example that you can use to test your own code.
      */
     void customExample();
+
+    /**
+     * @brief Basic screen manager example
+     *
+     * This example illustrates a very simple screen manager based on a states machines
+     */
+    void basicScreenManager();
 }
 
 #endif // AXLE_EXAMPLES_H

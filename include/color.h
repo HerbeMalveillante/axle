@@ -10,55 +10,55 @@ namespace Axle
     enum class ColorPreset
     {
         /// 200, 200, 200, 255 (Light Gray)
-        LIGHTGRAY,
+        COLOR_LIGHTGRAY,
         /// 130, 130, 130, 255 (Gray)
-        GRAY,
+        COLOR_GRAY,
         /// 80, 80, 80, 255 (Dark Gray)
-        DARKGRAY,
+        COLOR_DARKGRAY,
         /// 253, 249, 0, 255 (Yellow)
-        YELLOW,
+        COLOR_YELLOW,
         /// 255, 203, 0, 255 (Gold)
-        GOLD,
+        COLOR_GOLD,
         /// 255, 161, 0, 255 (Orange)
-        ORANGE,
+        COLOR_ORANGE,
         /// 255, 109, 194, 255 (Pink)
-        PINK,
+        COLOR_PINK,
         /// 230, 41, 55, 255 (Red)
-        RED,
+        COLOR_RED,
         /// 190, 33, 55, 255 (Maroon)
-        MAROON,
+        COLOR_MAROON,
         /// 0, 228, 48, 255 (Green)
-        GREEN,
+        COLOR_GREEN,
         /// 0, 158, 47, 255 (Lime)
-        LIME,
+        COLOR_LIME,
         /// 0, 117, 44, 255 (Dark Green)
-        DARKGREEN,
+        COLOR_DARKGREEN,
         /// 102, 191, 255, 255 (Sky Blue)
-        SKYBLUE,
+        COLOR_SKYBLUE,
         /// 0, 121, 241, 255 (Blue)
-        BLUE,
+        COLOR_BLUE,
         /// 0, 82, 172, 255 (Dark Blue)
-        DARKBLUE,
+        COLOR_DARKBLUE,
         /// 200, 122, 255, 255 (Purple)
-        PURPLE,
+        COLOR_PURPLE,
         /// 135, 60, 190, 255 (Violet)
-        VIOLET,
+        COLOR_VIOLET,
         /// 112, 31, 126, 255 (Dark Purple)
-        DARKPURPLE,
+        COLOR_DARKPURPLE,
         /// 211, 176, 131, 255 (Beige)
-        BEIGE,
+        COLOR_BEIGE,
         /// 127, 106, 79, 255 (Brown)
-        BROWN,
+        COLOR_BROWN,
         /// 76, 63, 47, 255 (Dark Brown)
-        DARKBROWN,
+        COLOR_DARKBROWN,
         /// 255, 255, 255, 255 (White)
-        WHITE,
+        COLOR_WHITE,
         /// 0, 0, 0, 255 (Black)
-        BLACK,
+        COLOR_BLACK,
         /// 0, 0, 0, 0 (Blank / Transparent)
-        BLANK,
+        COLOR_BLANK,
         /// 255, 0, 255, 255 (Magenta)
-        MAGENTA,
+        COLOR_MAGENTA,
     };
 
     /**
